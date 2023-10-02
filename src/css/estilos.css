@@ -51,6 +51,9 @@ main .personagem .imagem {
     margin-bottom: 20px;
 }
 
+.conteudo .saiba-mais{
+    display: none;
+}
 .conteudo .descricao{
     color: #ffffff;
     font-family: "Rubik";

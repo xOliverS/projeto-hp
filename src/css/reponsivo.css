@@ -44,19 +44,44 @@
     .conteudo .logo{
         width: 250px;
         height: 75px;
-        margin-bottom: 80px;
-        margin-left: 50px;
+
     }
 
     .conteudo{
-        top: -30%;
-        
+        top: -10%;
+    }
+
+    .conteudo .saiba-mais{
+        color: #000000;
+        border: none;
+        padding: 10px;
+        border-radius: 2px;
+        margin-top: 10px;
+        background-color: #f8b61f;
+        font-weight: bold;
+        cursor: pointer;
+        display: block;
+    }
+
+    .conteudo .saiba-mais::hover{
+        background-color: transparent;
+        color: #f8b61f;
     }
 
     .conteudo .descricao{
         font-size: 13px;
-        height: 10px;
-        
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .conteudo .descricao::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(transparent, #111111);
     }
 
     .conteudo .nome-personagem{
@@ -65,7 +90,7 @@
 
     .botoes{
         padding: 20px;
-        top: -60%;
+        
     }
 
     .botoes .botao img{
