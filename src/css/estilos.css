@@ -17,6 +17,7 @@ main::after{
 main .personagem {
     display: none;
     height: 100vh;
+    
 }
 
 main .selecionado {

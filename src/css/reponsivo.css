@@ -42,12 +42,21 @@
     }
 
     .conteudo .logo{
-        width: 170px;
+        width: 250px;
         height: 75px;
+        margin-bottom: 80px;
+        margin-left: 50px;
     }
 
     .conteudo{
         top: -30%;
+        
+    }
+
+    .conteudo .descricao{
+        font-size: 13px;
+        height: 10px;
+        
     }
 
     .conteudo .nome-personagem{
@@ -56,7 +65,7 @@
 
     .botoes{
         padding: 20px;
-        top: -20%;
+        top: -60%;
     }
 
     .botoes .botao img{
