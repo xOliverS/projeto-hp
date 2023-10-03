@@ -63,9 +63,8 @@
         display: block;
     }
 
-    .conteudo .saiba-mais::hover{
-        background-color: transparent;
-        color: #f8b61f;
+    .conteudo .saiba-mais:hover{
+        background-color: #ecc976;
     }
 
     .conteudo .descricao{
@@ -95,5 +94,6 @@
 
     .botoes .botao img{
         max-width: 50px;
+        overflow: scroll;
     }
 }
