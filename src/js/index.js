@@ -24,3 +24,23 @@ function desselecionarBotao() {
   const botaoSelecionado = document.querySelector(".botao.selecionado");
   botaoSelecionado.classList.remove("selecionado");
 }
+
+
+
+
+var saibaMais = document.querySelector(".saiba-mais");
+
+
+  saibaMais.addEventListener('click', function() {
+    var conteudo = document.querySelector(".conteudo");
+    conteudo.classList.toggle('active');
+  
+    if(conteudo.classList.contains("active")){
+      return saibaMais.textContent = 'Ler Menos';
+    }
+      saibaMais.textContent = 'Saiba Mais';
+  })
+
+
+
+
